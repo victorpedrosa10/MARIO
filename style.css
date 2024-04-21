@@ -7,13 +7,14 @@
 
 .Logo-mario {
     height: 200px;
+    margin-bottom: 30px;
 }
 
 .imagem-mario-luigi {
     height: 500px;
 }
 
-button {
+.button {
     color: white;
     background-color: #c51111;
     border-radius: 3px;
@@ -23,7 +24,9 @@ button {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 20px;
 }
+
 
 .caixa-principal {
     width: 40%;
@@ -39,6 +42,14 @@ video {
     width: 100vw;
 }
 
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
 body {
     height: 100vh;
 }
@@ -48,4 +59,34 @@ body {
     justify-content: space-around;
     padding: 100px;
     height: 100vh;
+}
+
+.link-whatsapp {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+
+}
+.header img {
+    height: 60px;
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
 }
