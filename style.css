@@ -177,6 +177,10 @@ textarea {
         width: 90vw;
         text-align: justify;
     }
+    .caixa-principal img {
+        margin-top: 20px;
+    }
+    
     .titulo-encanadores {
         display: flex;
         justify-content: center;
