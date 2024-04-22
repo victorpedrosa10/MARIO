@@ -166,6 +166,7 @@ textarea {
     .caixa-mae {
         flex-direction: column;
         padding: 10px;
+        justify-content: flex-start;
     }
     .caixa-principal {
         display: flex;
@@ -176,9 +177,6 @@ textarea {
         margin: 5px;
         width: 90vw;
         text-align: justify;
-    }
-    .caixa-principal img {
-        margin-top: 100px;
     }
     
     .titulo-encanadores {
