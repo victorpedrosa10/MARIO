@@ -27,9 +27,23 @@
     margin-top: 20px;
 }
 
+.button:hover {
+    background-color: blue;
+    font-size: 15px;
+    transition: 0.25s ease-in-out;
+    
+}
 
 .caixa-principal {
     width: 40%;
+}
+
+.caixa-principal p {
+    color: white;
+}
+
+.titulo-encanadores {
+    font-size: 17px;
 }
 
 .caixa-video {
@@ -39,7 +53,10 @@
 }
 
 video {
-    width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .mascara {
@@ -88,5 +105,51 @@ body {
 .header a:hover {
     color: #c51111;
     font-size: 26px;
-    transition: 0.5s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: blue;
+}
+
+textarea {
+    height: 100px;
+    width: 270px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: blue;
+}
+
+.mascara-formulario {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(119deg, rgba(2,0,36,1) 0%, rgba(40,39,49,0.6554271366749824) 35%, rgba(10,10,10,0.48175766888786764) 100%);}
+
+/* inicial 
+    top: 30%;
+    left: -300px;
+
+    final
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+*/
