@@ -38,7 +38,7 @@
     width: 40%;
 }
 
-.caixa-principal p {
+p {
     color: white;
 }
 
@@ -100,6 +100,7 @@ body {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .header a:hover {
@@ -157,3 +158,49 @@ textarea {
     left: 50%;
     transform: translateX(-50%);
 */
+
+/* RESPONSIVIDADE = MEDIA QUERY */
+
+@media(max-width: 1000px) {
+   
+    .caixa-mae {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .caixa-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .caixa-principal p {
+        margin: 5px;
+        width: 90vw;
+        text-align: justify;
+    }
+    .titulo-encanadores {
+        display: flex;
+        justify-content: center;
+    }
+    .imagem-mario-luigi {
+            width: 80vw;
+            height: auto;
+        }
+    .header img {
+            display: none;
+        }
+    .header {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .header a {
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .header a:hover {
+        color: #c51111;
+        font-size: 22px;
+        transition: 0.25s ease-in-out;}
+    }
