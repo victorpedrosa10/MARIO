@@ -43,11 +43,16 @@
         <img src="./img/whatsapp.png" alt="Link-wpp" class="link-whatsapp">
     </a>
 
-    <form class="formulario-fale-conosco">
-        <input placeholder="Seu Nome">
-        <input placeholder="Seu Telefone">
-        <textarea placeholder="Digite seu problema aqui"></textarea>
-        <button class="button">Pedir Orçamento</button>
+    <form 
+        class="formulario-fale-conosco"
+        action="https://formcarry.com/s/Mp7194_JHok"
+        method="POST"
+        enctype="multipart/form-data">
+
+            <input placeholder="Seu Nome" type="text" name="Nome">
+            <input placeholder="Seu Telefone" type="tel" name="Telefone">
+            <textarea placeholder="Digite seu problema aqui" name="duvida"></textarea>
+            <button class="button" type="submit">Pedir Orçamento</button>
     </form>
 </body>
 <script src="scripts.js"></script>
